@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+	cin >> t;
+    while(t--){
+        int min_time,x,y,z;
+        cin >> x >> y >> z ;
+        int before_time = y/x;
+        min_time = max(0,z - before_time);
+        cout << min_time << endl;
+    }
+}
