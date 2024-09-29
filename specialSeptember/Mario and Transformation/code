@@ -1,1 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    // array<string,3> arr = {"NORMAL","HUGE","SMALL"};
+    // int size = arr.size();
+    int t,n,size=3;
+    cin >> t;
+    while(t--){
+        cin >> n;
+        if(n % size == 1){
+            cout << "HUGE" << endl;
+        }else if(n % size == 2){
+            cout << "SMALL" << endl;
+        }else{
+            cout << "NORMAL" << endl;
+        }
+    }
+}
 
