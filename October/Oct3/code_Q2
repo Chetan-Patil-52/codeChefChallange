@@ -1,0 +1,40 @@
+Cpp code: 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin >> t;
+    while(t--){
+        int no_bottle,cap_bottle,water_tank;
+        cin >> no_bottle >> cap_bottle >> water_tank;
+        int req_cap_in_tank = no_bottle*cap_bottle;
+        if(req_cap_in_tank>water_tank){
+            cout << water_tank/cap_bottle << endl;
+        }else{
+            cout << no_bottle << endl;
+        }
+    }
+}
+
+
+# This code solves a problem where you are given a number of bottles, each with a certain capacity, and a water tank with limited capacity. The goal is to determine how many bottles can be fully filled by the water tank.
+
+Logic:
+
+First, the number of test cases t is taken as input.
+For each test case, three values are input:
+no_bottle: number of bottles.
+cap_bottle: capacity of each bottle.
+water_tank: capacity of the water tank.
+Logic to Determine Fillable Bottles:
+
+Input Parsing:
+The total required capacity to fill all bottles is calculated as req_cap_in_tank = no_bottle * cap_bottle.
+If this required capacity exceeds the water tank capacity:
+The maximum number of bottles that can be filled is water_tank / cap_bottle, and the result is printed.
+Otherwise, all bottles can be filled, so no_bottle is printed.
+Example Flow:
+If the water tank has less capacity than needed to fill all bottles, the code calculates how many bottles can be filled and outputs that number.
+If the water tank can fill all bottles, the total number of bottles is output.
