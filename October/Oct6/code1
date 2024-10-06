@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin >> t;
+    while(t--){
+        int recieved_candies,bag_pockets,atmost_pock_cap,total_bag_cap,count=1;
+        cin >> recieved_candies >> bag_pockets >> atmost_pock_cap ;
+        total_bag_cap = bag_pockets * atmost_pock_cap;
+        // cout << total_bag_cap << endl;
+        while(recieved_candies>total_bag_cap){
+            count ++;
+            total_bag_cap += (bag_pockets*atmost_pock_cap);
+        }
+        cout << count << endl;
+    }
+}
