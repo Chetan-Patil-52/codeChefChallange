@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin >> t;
+    while(t--){
+        int p1,p2,p3,p4;
+        cin>> p1 >> p2 >> p3 >> p4;
+        pair<int,int> pair1(p1,p2);
+        pair<int,int> pair2(p3,p4);
+        pair<int,int> result(abs(pair1.first - pair2.first),abs(pair1.second-pair2.second));
+        int max_element = max(result.first,result.second);
+        cout << max_element << endl;
+    }
+}
