@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin >> t;
+    while(t--){
+        int target,y_move;
+        cin >> target >> y_move ;
+        if(target%y_move==0){
+            cout << target/y_move << endl;
+        }else if(target<y_move){
+            cout << target << endl;
+        }else{
+            int rem = target%y_move;
+            int quotient = target/y_move;
+            cout << quotient+rem << endl;
+        }
+    }
+}
