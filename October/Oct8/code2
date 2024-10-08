@@ -1,0 +1,30 @@
+#include <iostream>
+#include <unordered_set>
+
+using namespace std;
+
+string canMeasureWeights(int w,int x,int y,int z){
+    unordered_set<int> possibleWeights;
+    
+    // Adding the complination to the set;
+    possibleWeights.insert(0);//initial weight;
+    possibleWeights.insert(x);
+    possibleWeights.insert(y);
+    possibleWeights.insert(z);
+    possibleWeights.insert(x+y);
+    possibleWeights.insert(x+z);
+    possibleWeights.insert(y+z);
+    possibleWeights.insert(x+y+z);
+    
+    return possibleWeights.count(w)>0 ? "YES":"NO";
+}
+
+int main(){
+    int t,a,b,c,d;
+    cin >> t;
+    while(t--){
+        cin >> a >> b >> c >>d ;
+        cout << canMeasureWeights(a,b,c,d) << endl;
+    }
+    return 0;
+}
