@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t;
+    cin >>t;
+    while(t--){
+        // here we'll take 3 inputs 'N' for number of episodes and 'A','B' for lenght of each even or add episodes;
+        
+        int n,a,b;
+        cin >> n >> a >> b;
+        if(n==1){
+            cout << max(a,b) << endl;
+        }else{
+            int even = n/2;
+            int odd = n - even;
+            cout << (even*a)+(b*odd) << endl;
+        }
+    }
+}
