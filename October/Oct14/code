@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while(t--) {
+        int n;
+        cin >> n;
+        vector<int> arr(n);
+        
+        for(int i = 0; i < n; i++) {
+            cin >> arr[i];
+        }
+        
+        // Remove elements that are < 10 or > 60
+        arr.erase(remove_if(arr.begin(), arr.end(), [](int x) {
+            return x < 10 || x > 60;
+        }), arr.end());
+
+        // Print the updated array
+        // cout << "Updated array: ";
+        // for(int i = 0; i < arr.size(); i++) {
+        //     cout << arr[i] << " ";
+        // }
+        cout << arr.size()<< endl;
+    }
+    return 0;
+}
