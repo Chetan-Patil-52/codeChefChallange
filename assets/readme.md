@@ -1,6 +1,8 @@
 # CodeChef Batches
 
-![Bronze Badge](CodeChefBadge-Bronze.png)  
-![Silver Badge](assets/CodeChefBadge-Silver.png)  
-![Gold Badge](assets/CodeChefBadge-Gold.png)  
-![Diamond Badge](assets/CodeChefBadge-Diamond.png)
+<p align="center">
+  <img src="CodeChefBadge-Bronze.png" alt="Bronze Badge" width="150" />
+  <img src="CodeChefBadge-Silver.png" alt="Silver Badge" width="150" />
+  <img src="CodeChefBadge-Gold.png" alt="Gold Badge" width="150" />
+  <img src="CodeChefBadge-Diamond.png" alt="Diamond Badge" width="150" />
+</p>
