@@ -45,5 +45,5 @@
    - Accuracy: 0.21%
 
 8. **GCD Partition**  
-   - Problem Link: [GCD Partition](https://www.codechef.com/problems/START168H)  
-   - (Link available once the problem is officially published)
+   - Problem Link: [GCD Partition](https://www.codechef.com/problems/START168G)  
+  
