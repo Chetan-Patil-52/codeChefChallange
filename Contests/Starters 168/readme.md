@@ -3,19 +3,19 @@
 Here are the problems from the CodeChef contest "Starters 168":
 
 1. **Can You Bench 100/100**  
-   [Problem Link](https://www.codechef.com/problems/START168A)  
+   [Problem Link](https://www.codechef.com/START168A)  
    Score: 100/100  
    Solvers: 29111  
    Accuracy: 84.96%
 
 2. **Big Achiever 100/100**  
-   [Problem Link](https://www.codechef.com/problems/START168B)  
+   [Problem Link](https://www.codechef.com/START168B)  
    Score: 100/100  
    Solvers: 23505  
    Accuracy: 64.13%
 
 3. **Make Odd**  
-   [Problem Link](https://www.codechef.com/problems/START168C)  
+   [Problem Link](https://www.codechef.com/START168C)  
    Status: Unsolved  
    Solvers: 9790  
    Accuracy: 24.79%
@@ -27,7 +27,7 @@ Here are the problems from the CodeChef contest "Starters 168":
    Accuracy: 34.51%
 
 5. **No Two Alike**  
-   [Problem Link](https://www.codechef.com/problems/START168E)  
+   [Problem Link](https://www.codechef.com/START168D)  
    Status: Unsolved  
    Solvers: 907  
    Accuracy: 18.24%
