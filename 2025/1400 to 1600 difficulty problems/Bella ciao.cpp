@@ -64,4 +64,28 @@ int main() {
 }
 
 // Approach - 3 TC: O(n)
+#include<bits/stdc++.h>
+using namespace std;
+#define int long long
+void solve(){
+    int D,d,P,Q;
+    cin>>D>>d>>P>>Q;
+    int a = P;
+    int n = D/d;
+    int rem = D%d;
+    int diff = Q;
+    int AP = d * (n * (2*a + (n-1) * diff)/2);
+    int remain = rem * (P + (n * diff));
+    int res = AP + remain;
+    cout<<res<<endl;
+}
 
+#undef int
+
+int main(){
+    int t;cin>>t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
